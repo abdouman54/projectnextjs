@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projet Next.js Abderrahmane Allal
 
-## Getting Started
+Ce projet est une application Next.js incluant des fonctionnalités d'authentification, d'ajout de témoignages, et l'utilisation de Redux pour la gestion de l'état. Il comporte également des liens vers GitHub et LinkedIn dans le footer.
 
-First, run the development server:
+## Fonctionnalités
 
-```bash
+- **Authentification** : Inscription, connexion et déconnexion des utilisateurs.
+- **Témoignages** : Ajout, affichage et persistance des témoignages.
+- **Gestion de l'État** : Utilisation de Redux pour gérer l'état global de l'application.
+- **Liens Sociaux** : Liens vers GitHub et LinkedIn dans le footer.
+
+## Installation
+
+Pour installer et exécuter ce projet localement, suivez ces étapes :
+
+1. Clonez le dépôt :
+
+   git clone https://github.com/abdouman54/projectnextjs.git
+
+2. Accédez au répertoire du projet :
+
+cd votre-repo
+
+3. Installez les dépendances :
+
+npm install
+ 
+4. Lancez le serveur de développement :
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Ouvrez http://localhost:3000 dans votre navigateur pour voir le résultat.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Utilisation
 
-To learn more about Next.js, take a look at the following resources:
+Authentification
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Inscription : Accédez à la page de connexion et cliquez sur "Créer un compte" pour vous inscrire.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Connexion : Entrez vos informations d'identification pour vous connecter.
 
-## Deploy on Vercel
+Déconnexion : Cliquez sur le bouton "Se déconnecter" dans la page des témoignages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Témoignages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ajout de Témoignages : Connectez-vous et accédez à la page des témoignages pour ajouter un nouveau témoignage.
+
+Affichage des Témoignages : Les témoignages ajoutés sont affichés sur la page des témoignages.
+
+Footer
+
+Liens vers GitHub et LinkedIn : Des liens vers vos profils GitHub et LinkedIn sont disponibles dans le footer.
