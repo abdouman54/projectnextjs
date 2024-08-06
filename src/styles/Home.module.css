@@ -1,0 +1,69 @@
+/* src/styles/Home.module.css */
+
+.home {
+  text-align: center;
+  padding: 2rem;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #333333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-left: 5rem;
+  object-fit: cover;
+}
+
+.heroContent {
+  text-align: left;
+  flex: 1;
+}
+
+.heroContent h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  color: #00FF7F;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.heroContent p strong {
+  color: #00FF7F;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profileImage {
+    margin: 0 0 1rem 0;
+  }
+
+  .heroContent {
+    text-align: center;
+  }
+}

@@ -1,0 +1,74 @@
+.testimonials {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F5F5F5;
+}
+
+.testimonials h1 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.testimonialsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.testimonialItem {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  display: inline-block;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialItem p {
+  margin: 0;
+}
+
+.testimonialItem strong {
+  color: #FF9800;
+}
+
+.addTestimonialButton {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3F51B5;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.addTestimonialButton:hover {
+  background-color: #303F9F;
+}
+
+.logoutButton {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #e91e63;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.logoutButton:hover {
+  background-color: #c2185b;
+}
+
+.successMessage {
+  color: #4CAF50;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
